@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Ranchers&display=swap" rel="stylesheet">
+        <script src="./script.js" async></script>
+        <title>GC After Dark</title>
+    </head>
+    <body>
+       
+        <!--first box-->
+         <div class="title">
+            <div>
+                <h1>GC After Dark</h1>
+                <H2>Mix-and-Match Game</H2>
+            </div>
+         </div>
+            <div class="overlay-text visible">Click to Start</div>
+             <div id="game-over-text" class="overlay-text"> GAME OVER
+                    <span class="overlay-text-small">Click to Restart</span>
+             </div>
+             <div id="victory-text" class="overlay-text">VICTORY
+                    <span class="overlay-text-small">Click to Restart</span>
+             </div>
+
+            <!--second box-->
+            <div class="game-container">
+                    <div class="game-info">
+                      <div class="time">Time:<span id="time-remaining">100</span></div>
+                      <div class="flip">Flips:<span id="flips">0</span></div>
+                    </div>
+            </div>
+            <!-- cards -->
+            <div class="card-game">
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ankurA.png">
+                                <img class="student" src="images/ankurB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/casslyA.png">
+                                <img class="student" src="images/casslyB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ceceliaA.png">
+                                <img class="student" src="images/ceceliaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/chelseaA.png">
+                                <img class="student" src="images/chelseaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/clintonA.png">
+                                <img class="student" src="images/clintonB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/graceA.png">
+                                <img class="student" src="images/graceB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ivonaA.png">
+                                <img class="student" src="images/ivonaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/laquitaA.png">
+                                <img class="student" src="images/laquitaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/mcA.png">
+                                <img class="student" src="images/mcB.png">
+                            </div>
+                        </div>
+                        <!-- Next Row of Cards -->
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ankurA.png">
+                                <img class="student" src="images/ankurB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/casslyA.png">
+                                <img class="student" src="images/casslyB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ceceliaA.png">
+                                <img class="student" src="images/ceceliaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/chelseaA.png">
+                                <img class="student" src="images/chelseaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/clintonA.png">
+                                <img class="student" src="images/clintonB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/graceA.png">
+                                <img class="student" src="images/graceB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/ivonaA.png">
+                                <img class="student" src="images/ivonaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/laquitaA.png">
+                                <img class="student" src="images/laquitaB.png">
+                            </div>
+                        </div>
+                        <div class="cards">
+                            <div id="backCard" class="card-back card-face">
+                                <img class="gen-back" src="./images/100x160_backCard.jpg">
+                                <img class="chirpus" src="images/chirpse.png">
+                            </div>
+                            <div id="frontCard" class="card-front card-face">
+                                <img class="card-value" src="images/mcA.png">
+                                <img class="student" src="images/mcB.png">
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="controller">
+                <audio controls>
+                    <source src="./music/Tattletales.mp3" type="audio/ogg">
+                  Your browser does not support the audio element.
+                  </audio>
+                </div>
+            <H6>Copyright 2020 Forbidden Linkers Inc.</H6>
+        </footer>
+    </body>
+</html>
